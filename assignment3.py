@@ -32,12 +32,13 @@ r = float(input("Please enter your annual interest rate (as a whole number): "))
 r2 = r / 100
 years = int(input("Please enter the number of years you are investing: "))
 
-while years > 0:
+while B==0:
    B += P 
    B *= (1 + r2)  
    if B != 0:
-    print("I am touching myself")
+    print(B)
     
+
 
 
 
