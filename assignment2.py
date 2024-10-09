@@ -20,6 +20,23 @@ annual investment: 100
 rate: 5%
 10 years
 final balance: 1320.68
-
 """
+
+import math
+
+B = 0
+
+P = float(input("Please enter your annual investment: "))
+r = float(input("Please enter your annual interest rate (as a whole number): "))
+r2 = r / 100
+years = int(input("Please enter the number of years you are investing: "))
+
+
+for year in range(1, years + 1):
+    B += P 
+    B *= (1 + r2)  
+
+print(f"Final balance after {years} years: {B:.2f}")
+  
+
 

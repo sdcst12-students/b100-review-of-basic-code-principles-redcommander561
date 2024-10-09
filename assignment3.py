@@ -22,3 +22,23 @@ rate: 5%
 10 years
 final balance: 1320.68
 """
+
+import math
+
+B = 0
+
+P = float(input("Please enter your annual investment: "))
+r = float(input("Please enter your annual interest rate (as a whole number): "))
+r2 = r / 100
+years = int(input("Please enter the number of years you are investing: "))
+
+while years > 0:
+   B += P 
+   B *= (1 + r2)  
+   if B != 0:
+    print("I am touching myself")
+    
+
+
+
+
