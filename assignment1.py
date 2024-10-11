@@ -13,3 +13,19 @@ Your program should ask the user for
 * The program will calculate the amount of interest earned and display it.
 * Appropriate formatting of the output is a requirement for this assignment
 """
+
+
+
+print("lets calculate your simple interest!")
+
+initial=float(input("Please enter your initial investment:"))
+annual=float(input("Please enter your annual interest rate as a percentage:"))
+length=float(input("please enter the length of time:"))
+
+Interest= initial * annual * length
+print("here is the interest you earned!")
+print(Interest)
+final=Interest + initial
+
+print("here is the amount of interest earned added to your initial amount")
+print(final)

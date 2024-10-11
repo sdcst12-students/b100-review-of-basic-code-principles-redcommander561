@@ -22,3 +22,17 @@ How many months will it take him to pay off the car.  How much interest has he p
 He will have paid 21711.60 in interest
 """
 
+import math
+
+B=float(input("What is your initial debt:"))
+R=float(input("what is your annual interest rate:"))
+r = R/12/100
+P=float(input("what is your monthly payment:"))
+
+while B>=0:
+    I=B*r
+    B = B + I 
+    B = B - P 
+    print(B)
+    
+
