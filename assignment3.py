@@ -26,18 +26,18 @@ final balance: 1320.68
 import math
 
 B = 0
-
+V=0
 P = float(input("Please enter your annual investment: "))
 r = float(input("Please enter your annual interest rate (as a whole number): "))
 r2 = r / 100
 years = int(input("Please enter the number of years you are investing: "))
 
-while B==0:
+while V != years:
    B += P 
    B *= (1 + r2)  
    if B != 0:
-    print(B)
-    
+    print(f"{B:.2f}")
+    V=V+1
 
 
 
